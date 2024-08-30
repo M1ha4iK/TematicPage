@@ -17,7 +17,9 @@
     font-weight: normal; 
 }
 
-
+*{
+    
+}
 body{
     max-width: 1440px;
     margin: 0 auto;
@@ -44,7 +46,7 @@ p {
 
 .header {
     width: 100%;
-    height: 831px;
+    height: 960px;
 }
 .header-container {
     display: flex;
@@ -52,7 +54,7 @@ p {
 
 .header-container_nav {
     width: 720px;
-    height: 831px;
+    height: 960px;
     display: flex;
     flex-direction: column;
 }
@@ -63,7 +65,7 @@ p {
     margin: 36px 0px 0px 107px;
 }
 .list-item {
-    padding: 0px 56px 0px 0px;
+    padding: 0px 35px 0px 0px;
 }
 .list-item a{
     text-decoration: none;
@@ -79,40 +81,47 @@ p {
 }
 
 .nav-title-eng {
-    font-size: 120px;
+    font-size: 90px;
     width: 580px;
     height: 248px;
-    margin: 231px 0px 0px 107px;
+    margin: 220px 0px 0px 107px;
     line-height: 1.02;
     font-family: "BebasNeue";
 }
 .nav-title-ru {
-    font-size: 36px;
+    font-size: 33px;
     width: 525px;
-    height: 50px;
-    margin: 0px 0px 0px 107px;
+    height: 120px;
+    margin: 50px 0px 0px 107px;
     font-family: "BebasNeueLight";
 }
-
-
+.title-ru:nth-child(1){
+    margin: 0px 0px 0px 0px;
+}
+.title-ru:nth-child(2){
+    margin: 0px 0px 0px 130px;
+}
+.title-ru:nth-child(3){
+    margin: 0px 0px 0px 370px;
+}
 
 .header-container_img {
     position: relative;
-    height: 831px;
+    height: 960px;
 }
 .header-container_img img{
     width: 720px;
-    height: 831px;
+    height: 960px;
     object-fit: cover;
 }
 .nav-button span{
     position: absolute;
-    top: 325px;
+    top: 392px;
     right: 630px;
-    border: 1px solid #678e6b;
+    border: 1px solid #456d65;
     border-radius: 100%;
     padding: 72px 55px;
-    background-color: #678e6b;
+    background-color: #456d65;
     color: white;
     font-size: 24px;
     cursor: pointer;
@@ -129,19 +138,19 @@ p {
 
 .history {
     width: 100%;
-    height: 1326px;
+    height: 1105px;
 }
 .history-content {
     display: flex;
     flex-direction: column;
     height: 537px;
-    background-color: #678e6b;
+    background-color: #456d65;
     color: white;
     align-items: center;
     text-align: center;
 }
 .content-title {
-    font-size: 120px;
+    font-size: 85px;
     font-family: "BebasNeue";
     margin: 78px 0px 0px 0px;
 }
@@ -182,13 +191,13 @@ p {
     transition: 0.7s ease;
 }
 .sights-container {
-    background-color: #678e6b;
+    background-color: #456d65;
     height: 1309px;
     position: relative;
     overflow: hidden;
 }
 .sights-title {
-    width: 1228px;
+    width: 1210px;
     font-size: 120px;
     line-height: 1.05;
     color: white;
@@ -228,7 +237,7 @@ p {
     position: absolute;
     color: white;
     left: 50%;
-    top: 493px;
+    top: 505px;
     transform: translate(-50%, -50%);
     width: 300px;
     text-align: center;
@@ -287,7 +296,7 @@ p {
     height: 1300px;
 }
 .questions-title {
-    width: 1228px;
+    width: 1200px;
     height: 256px;
     margin: 84px 0px 66px 105px;
     font-family: "BebasNeue";
@@ -307,7 +316,7 @@ p {
     font-size: 24px;
     line-height: 32px;
     margin: 0px 105px 34px 105px;
-    border: 2px solid #678E6B;
+    border: 2px solid #456d65;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 34px 32px;
@@ -329,9 +338,9 @@ p {
     transition: all ease 0.4s;
     opacity: 0;
     visibility: hidden;
-    border: 1px solid #678e6b;
+    border: 1px solid #456d65;
     border-radius: 10px;
-    background-color: #678e6b;
+    background-color: #456d65;
     z-index: 1;
     font-family: "BebasNeueLight";
     font-style: normal;
@@ -377,7 +386,7 @@ p {
 
 .footer {
     width: 100%;
-    background-color: #375b3b;
+    background-color: #2d4742;
 }
 .footer-container{
     height: 544px;
