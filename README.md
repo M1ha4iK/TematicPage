@@ -1,5 +1,5 @@
-# KRProjectSmagin
+#TematicPage
 
-https://m1ha4ik.github.io/RPI_KRProject/
+[https://m1ha4ik.github.io/RPI_KRProject/](https://m1ha4ik.github.io/TematicPage/)
 
-Веб-сайт "Welcome to Belarus!"
+Веб-сайт "Патриоты средней школы №80"
